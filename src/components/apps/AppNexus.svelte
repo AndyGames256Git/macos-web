@@ -10,7 +10,7 @@
     <Calendar />
   {/await}
 {:else if appID === 'vscode'}
-  {#await import('./VSCode/VSCode.svelte') then { default: Test }}
+  {#await import('./VSCode/VSCode.svelte') then { default: VSCode }}
     <VSCode {isBeingDragged} />
   {/await}
 {:else if appID === 'calculator'}
