@@ -26,7 +26,7 @@ const calendar = createAppConfig({
 });
 
 const vscode = createAppConfig({
-  title: 'VSCode',
+  title: 'The Tugh',
   resizable: true,
 
   height: 600,
